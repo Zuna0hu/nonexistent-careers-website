@@ -1,0 +1,28 @@
+h1 {
+  /* it is a good practice to use fallback fonts */
+  /* more common to use serif for headings and sans-serif for body */
+  font-size: 60px;
+  font-family: "Georgia", "Times New Roman", serif;
+  font-weight: normal;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: "Georgia", "Times New Roman", serif;
+  font-weight: normal;
+  text-align: center;
+}
+p {
+  font-family: "Verdana", "Arial", sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+#banner {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+}
